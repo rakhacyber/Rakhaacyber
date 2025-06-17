@@ -1,4 +1,4 @@
-# Rakhaacyber
+# RakhaaCyber
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -14,8 +14,8 @@
       padding: 0;
     }
     .container {
-      padding: 20px;
-      max-width: 600px;
+      padding: 15px;
+      max-width: 360px;
       margin: auto;
     }
     h1, h2, h3 {
@@ -25,14 +25,14 @@
     .neon-box {
       border: 1px solid #00fff7;
       box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
-      padding: 20px;
+      padding: 15px;
       margin-bottom: 30px;
       text-align: center;
     }
     .skill-button {
       display: block;
       width: 100%;
-      margin: 5px 0;
+      margin: 6px 0;
       padding: 10px;
       background-color: transparent;
       color: #00fff7;
@@ -40,6 +40,7 @@
       text-align: center;
       text-decoration: none;
       border-radius: 4px;
+      font-size: 14px;
       transition: background 0.2s ease-in-out;
     }
     .skill-button:hover {
@@ -50,24 +51,28 @@
       margin: 30px 0;
     }
     .btn-link {
-      display: inline-block;
-      margin: 10px 5px;
-      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
       color: #00fff7;
       border: 1px solid #00fff7;
       text-decoration: none;
+      text-align: center;
       border-radius: 5px;
+      font-size: 14px;
     }
     .btn-link:hover {
       background: #00fff7;
       color: #000;
     }
     footer {
-      font-size: 12px;
+      font-size: 11px;
       color: #aaa;
       text-align: center;
       margin-top: 40px;
       padding-bottom: 20px;
+      line-height: 1.5;
     }
   </style>
 </head>
@@ -78,7 +83,7 @@
     <div class="neon-box">
       <h2>PAYAKUMBUH CYBER</h2>
       <p>
-        Kami berasal dari rasa penasaran, bergerak untuk pertahanan digital.<br>
+        Kami berasal dari rasa penasaran,<br> bergerak untuk pertahanan digital.<br>
         Payakumbuh Cyber Defense — dari rasa ingin tahu, menuju perlindungan siber.
       </p>
     </div>
@@ -107,11 +112,11 @@
     </div>
 
     <footer>
-      <p>DIBUAT OLEH: RAKHA</p>
-      <p>DIDUKUNG OLEH: BERITAPAYAKUMBUHH</p>
-      <p>EMAIL: pykcyber@gmail.com</p>
-      <p>WA: 083198193730</p>
-      <p>INSTAGRAM: rakhaalnujron._</p>
+      <p>DIBUAT OLEH : RAKHA</p>
+      <p>DI DUKUNG : BERITAPAYAKUMBUHH</p>
+      <p>EMAIL : PYKCYBER@GMAIL.COM</p>
+      <p>WA : 083198193730</p>
+      <p>INSTAGRAM : RAKHAALNUJRON._</p>
       <p>SEMUA HAK CIPTA DILINDUNGI UNDANG-UNDANG</p>
       <p><i>NOTE: Jika Anda membutuhkan kami atau ingin memakai jasa kami, segera hubungi kontak di atas.</i></p>
     </footer>
