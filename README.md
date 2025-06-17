@@ -104,7 +104,7 @@
   </header>
 
   <section>
-    <h2>KETERAMPILAN MEMECAHKAN</h2>
+    <h2>SKILL HACKING</h2>
     <div class="skills-grid">
       <div class="skill-box">Brute Force Attack</div>
       <div class="skill-box">SQL Injection</div>
