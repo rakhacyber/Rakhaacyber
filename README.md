@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -97,13 +97,14 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1>PAYAKUMBUH CYBER</h1>
-    <p>Kami berasal dari rasa penasaran, bergerak untuk pertahanan digital.</p>
+    <p>Kami berasal dari rasa penasaran, bergerak untuk pelestarian digital. Payakumbuh Cyber Defense — dari rasa ingin tahu, menuju perlindungan siber.</p>
   </header>
 
   <section>
-    <h2>SKILL HACKING</h2>
+    <h2>KETERAMPILAN MEMECAHKAN</h2>
     <div class="skills-grid">
       <div class="skill-box">Brute Force Attack</div>
       <div class="skill-box">SQL Injection</div>
@@ -138,5 +139,6 @@
     <p>SEMUA HAK CIPTA DILINDUNGI UNDANG-UNDANG</p>
     <p><i>NOTE: Jika Anda membutuhkan kami atau ingin memakai jasa kami, segera hubungi kontak di atas.</i></p>
   </footer>
+
 </body>
 </html>
