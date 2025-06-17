@@ -1,15 +1,17 @@
 # Rakhaacyber
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CYBERSECURITY | PAYAKUMBUH CYBER</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PAYAKUMBUH CYBER</title>
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
       background-color: #000;
-      color: #0ff;
+      color: #00fff7;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
     }
     .container {
       padding: 20px;
@@ -18,83 +20,101 @@
     }
     h1, h2, h3 {
       text-align: center;
+      margin-bottom: 20px;
     }
-    .box {
-      border: 1px solid #0ff;
+    .neon-box {
+      border: 1px solid #00fff7;
+      box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
       padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 0 10px #0ff;
+      margin-bottom: 30px;
+      text-align: center;
     }
-    .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      color: #0ff;
-      border: 1px solid #0ff;
+    .skill-button {
+      display: block;
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+      background-color: transparent;
+      color: #00fff7;
+      border: 1px solid #00fff7;
+      text-align: center;
       text-decoration: none;
-      margin-top: 10px;
+      border-radius: 4px;
+      transition: background 0.2s ease-in-out;
     }
-    .btn:hover {
-      background-color: #0ff;
+    .skill-button:hover {
+      background-color: #00fff7;
       color: #000;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
+    .contact-info {
+      margin: 30px 0;
     }
-    ul li {
-      margin: 10px 0;
-      border: 1px solid #0ff;
-      padding: 10px;
+    .btn-link {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 20px;
+      color: #00fff7;
+      border: 1px solid #00fff7;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn-link:hover {
+      background: #00fff7;
+      color: #000;
     }
     footer {
-      margin-top: 40px;
-      text-align: center;
       font-size: 12px;
       color: #aaa;
+      text-align: center;
+      margin-top: 40px;
+      padding-bottom: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>CYBERSECURITY</h1>
-    <div class="box">
+
+    <div class="neon-box">
       <h2>PAYAKUMBUH CYBER</h2>
-      <p>Kami berasal dari rasa penasaran, bergerak untuk pertahanan digital.<br>
-        Payakumbuh Cyber Defense — dari rasa ingin tahu, menuju perlindungan siber.</p>
-    </div><h3>SKILL HACKING</h3>
-<ul>
-  <li>Brute Force Attack</li>
-  <li>SQL Injection</li>
-  <li>Phishing Tools</li>
-  <li>OSINT Tracking</li>
-  <li>Web Exploitation</li>
-  <li>Android Hacking (Termux)</li>
-  <li>Wireless Sniffing</li>
-  <li>Linux Privilege Escalation</li>
-  <li>Reverse Engineering</li>
-  <li>Bug Hunting & CVE</li>
-  <li>Sosial Engineering</li>
-  <li>Exploit Development</li>
-</ul>
+      <p>
+        Kami berasal dari rasa penasaran, bergerak untuk pertahanan digital.<br>
+        Payakumbuh Cyber Defense — dari rasa ingin tahu, menuju perlindungan siber.
+      </p>
+    </div>
 
-<h3>KONTAK KAMI</h3>
-<p>Email: <a href="mailto:pykcyber@gmail.com">pykcyber@gmail.com</a><br>
-   WhatsApp: <a href="https://wa.me/6283198193730">0831-9819-3730</a><br>
-   Instagram: <a href="https://instagram.com/rakhaalnujron._">rakhaalnujron._</a></p>
+    <h2>SKILL HACKING</h2>
+    <a class="skill-button">Brute Force Attack</a>
+    <a class="skill-button">SQL Injection</a>
+    <a class="skill-button">Phishing Tools</a>
+    <a class="skill-button">OSINT Tracking</a>
+    <a class="skill-button">Web Exploitation</a>
+    <a class="skill-button">Android Hacking (Termux)</a>
+    <a class="skill-button">Wireless Sniffing</a>
+    <a class="skill-button">Linux Privilege Escalation</a>
+    <a class="skill-button">Reverse Engineering</a>
+    <a class="skill-button">Bug Hunting & CVE</a>
+    <a class="skill-button">Sosial Engineering</a>
+    <a class="skill-button">Exploit Development</a>
 
-<a href="mailto:pykcyber@gmail.com" class="btn">Email Kami</a>
-<a href="https://wa.me/6283198193730" class="btn">Hubungi via WhatsApp</a>
+    <div class="contact-info">
+      <h2>KONTAK KAMI</h2>
+      <p>Email: <a href="mailto:pykcyber@gmail.com" style="color:#00fff7;">pykcyber@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/6283198193730" style="color:#00fff7;">0831-9819-3730</a></p>
+      <p>Instagram: <a href="https://instagram.com/rakhaalnujron._" style="color:#00fff7;">rakhaalnujron._</a></p>
+      <a class="btn-link" href="mailto:pykcyber@gmail.com">Email Kami</a>
+      <a class="btn-link" href="https://wa.me/6283198193730">Hubungi via WhatsApp</a>
+    </div>
 
-<footer>
-  <p>DIBUAT OLEH: RAKHA<br>
-  DIDUKUNG OLEH: BERITAPAYAKUMBUHH<br>
-  EMAIL: pykcyber@gmail.com<br>
-  NOMOR WA: 083198193730<br>
-  IG: rakhaalnujron._<br><br>
-  SEMUA HAK CIPTA DILINDUNGI UNDANG UNDANG<br>
-  <i>NOTE: Jika Anda membutuhkan kami atau ingin memakai jasa kami, segera hubungi kontak di atas.</i></p>
-</footer>
-
+    <footer>
+      <p>DIBUAT OLEH: RAKHA</p>
+      <p>DIDUKUNG OLEH: BERITAPAYAKUMBUHH</p>
+      <p>EMAIL: pykcyber@gmail.com</p>
+      <p>WA: 083198193730</p>
+      <p>INSTAGRAM: rakhaalnujron._</p>
+      <p>SEMUA HAK CIPTA DILINDUNGI UNDANG-UNDANG</p>
+      <p><i>NOTE: Jika Anda membutuhkan kami atau ingin memakai jasa kami, segera hubungi kontak di atas.</i></p>
+    </footer>
   </div>
 </body>
 </html>
